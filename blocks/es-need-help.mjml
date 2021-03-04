@@ -1,0 +1,8 @@
+<!-- es-help -->
+<mj-section padding="80px 40px 100px">
+	<mj-column width="100%">
+		<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px 0" font-weight="700" align="center">Need help? Get it!</mj-text>
+		<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0" align="center">Reply directly to this email or click the <a href="#" style="color: #19153E;">help bubble</a> at any time while using the platform.</mj-text>
+	</mj-column>
+</mj-section>
+<!-- /es-help -->

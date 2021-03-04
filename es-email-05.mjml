@@ -1,0 +1,211 @@
+<mjml>
+	<mj-head>
+		<mj-title>ES Seller</mj-title>
+		<mj-preview>ES Seller</mj-preview>
+		<mj-attributes>
+			<mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#19153E" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+		<mj-style inline="inline">
+			.body-section {
+				background-image: url("https://andrii91.github.io/fix_email/assets/es-email-body.jpg");
+				background-repeat: repeat;
+				-webkit-box-shadow: 0px 5px 50px #CAE7FF;
+				-moz-box-shadow: 0px 5px 50px #CAE7FF;
+				box-shadow: 0px 5px 50px #CAE7FF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.es-join-group {
+        background-image: url("https://andrii91.github.io/fix_email/assets/es-email-join-group.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+       .es-join-members {
+       	background-color: #FFFFFF;
+       	margin: -40px 40px 0 !important;
+       	border: 1px solid #01AAFF;
+       	border-radius: 4px; }
+		</mj-style>
+		<mj-style inline="inline">
+			.es-competition {
+				background-image: url("https://andrii91.github.io/fix_email/assets/es-email-competition.jpg");
+				background-repeat: no-repeat;
+				background-position: left top;
+       	margin: 0 40px !important; }
+		</mj-style>
+		<mj-style inline="inline">
+			.text-link { color: #5e6ebf }
+		</mj-style>
+		<mj-style inline="inline">
+			.footer-link {
+				color: #013073; 
+				text-decoration: none;
+				margin: 0 10px; }
+		</mj-style>
+		<mj-style inline="inline">
+			.body-text {
+				color: #19153E; }
+		</mj-style>
+		<mj-style inline="inline">
+			.blue-text {
+				color: #00AAFF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.ditch-section {
+				background-color: #F3F7FB;
+				border-radius: 8px;
+				margin: 40px !important; }
+		</mj-style> 
+		<mj-style inline="inline">
+			.es-dashboard-caption {
+				position: relative;
+				margin-bottom: -30px;
+				z-index: 100; }
+		</mj-style>
+		<mj-style>
+			.ditch-screenshot {
+				width: 140% !important;
+				margin: -30px;
+			}
+
+			@media screen and (max-device-width: 425px), screen and (max-width: 425px) {
+				.hide-sm {
+					display: none !important;
+					visibility: hidden !important;
+					opacity: 0 !important;
+					height: 0 !important;
+				}
+
+				.center-sm {
+					text-align: center !important;
+				}
+
+				.ditch-screenshot {
+					width: 125% !important;
+					margin: -30px -10px -40px -40px;
+				}
+			}
+		</mj-style>
+	</mj-head>
+
+	<mj-body background-color="#FFFFFF" width="600px">
+		<mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+			<!-- es-header -->
+			<mj-section
+				padding="35px 15px 30px">
+				<mj-column width="100%">
+					<mj-spacer height="150px" />
+					<mj-text align="left" color="#19153E" font-size="34px" line-height="1.2" font-weight="700">Launch product faster<br>with this one tool</mj-text>
+				</mj-column>
+			</mj-section> 
+			<!-- /es-header -->
+
+			<!-- es-competition -->
+			<mj-section padding="0" css-class="es-competition"> 
+				<mj-column width="45%">
+					<mj-image width="1px" height="310px" padding="0" src="https://andrii91.github.io/fix_email/assets/es-email-competition-empty.png" />
+				</mj-column>
+				<mj-column width="55%">
+					<mj-raw><div class="hide-sm" style="height: 50px;"></div></mj-raw>
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="20px 0 5px" font-weight="700">Hi John,</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0" font-weight="700">This last tip is going to blow your mind and outpace your competition!</mj-text>
+				</mj-column>
+			</mj-section>  
+			<!-- /es-competition -->
+
+			<!-- es-tip-03 -->
+			<mj-section padding="60px 40px 0">
+				<mj-column width="100%">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 0" font-weight="700"><div class="center-sm">Elite Masterclass Tip 4:</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px" font-weight="700"><div class="center-sm">The 5 minutes product launch challenge with ManyChat</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 0 30px"><div class="center-sm">Take the challenge and launch a product or rank existing products for new keywords.</div></mj-text>
+					<mj-text padding="10px 0 0">
+						<p style="font-size: 16px; line-height: 21px; color: #19153E; margin: 15px 0; font-weight: 700;">
+							<img width="21px" style="vertical-align: sub; margin-right: 15px;" src="https://andrii91.github.io/fix_email/assets/es-email-step-02.jpg" />
+							Grow sales in seconds
+						</p>
+						<p style="font-size: 16px; line-height: 21px; color: #19153E; margin: 15px 0; font-weight: 700;">
+							<img width="21px" style="vertical-align: sub; margin-right: 15px;" src="https://andrii91.github.io/fix_email/assets/es-email-step-02.jpg" />
+							Increase your organic exposure
+						</p>
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-tip-03 -->
+
+			<mj-section padding="0 20px">
+				<mj-column width="100%" padding="0">
+					<mj-image padding="0" src="https://andrii91.github.io/fix_email/assets/es-email-screenshots-004.jpg" />
+				</mj-column>
+			</mj-section>
+
+			<!-- es-dashboard -->
+			<mj-section padding="60px 40px 0">
+				<mj-column width="100%" css-class="es-dashboard-caption">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 0" font-weight="700" align="center">Your final homework assignment:</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px" font-weight="700" align="center">Watch this video on ManyChat setup</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0" font-weight="700" align="center">Have you watched our expert-led Loom on Dashboards yet?</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section padding="0">
+				<mj-column width="100%" padding="0">
+					<mj-image href="#" padding="0" src="https://andrii91.github.io/fix_email/assets/es-email-dashboard-009.jpg" />
+				</mj-column>
+			</mj-section>
+			<!-- /es-dashboard -->
+
+			<!-- es-pro-movies -->
+			<mj-section padding="40px 40px 80px">
+				<mj-column width="100%">
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="36px" padding="0 0 10px 0" font-weight="700" align="center">Get more Elite Seller pro-moves by clicking here for step-by-step SOPs</mj-text>
+					<mj-button font-family="Helvetica" background-color="#FF6067" color="white" font-size="16px" font-weight="700" inner-padding="18px 30px" href="#">
+						Learn more
+					</mj-button>
+				</mj-column>
+			</mj-section>
+			<!-- /es-pro-movies -->
+
+			<!-- es-join-group -->
+			<mj-section padding="40px 40px 60px" css-class="es-join-group">
+				<mj-column width="100%">
+					<mj-text color="#FFFFFF" font-size="24px" line-height="36px" padding="0 0 10px 0" font-weight="700" align="center">Join the Elite Seller Facebook group now!</mj-text>
+					<mj-text color="#FFFFFF" font-size="16px" line-height="24px" padding="0 0 20px" align="center">You can stay in the know and engage in active discussions with other Elite Sellers like you.</mj-text>
+					<mj-button font-family="Helvetica" background-color="#FF6067" color="white" font-size="16px" font-weight="700" inner-padding="18px 30px" href="#">
+						I am in
+					</mj-button>
+				</mj-column>
+			</mj-section>
+			<mj-section padding="30px 15px 20px 20px" css-class="es-join-members">
+				<mj-column width="12%">
+					<mj-image width="39px" href="#" padding="5px 0" src="https://andrii91.github.io/fix_email/assets/es-email-logo-001.jpg" />
+				</mj-column>
+				<mj-column width="38%">
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="20px" font-weight="700" padding="8px 0 0"><div class="center-sm">Elite Seller Software</div></mj-text>
+					<mj-text color="#666668" font-size="12px" line-height="18px" padding="0 0 5px"><div class="center-sm">@EliteSeller Group</div></mj-text>
+				</mj-column>
+				<mj-column width="50%">
+					<mj-image width="220px" href="#" padding="5px 0 0" src="https://andrii91.github.io/fix_email/assets/es-email-ceo-02.jpg" />
+				</mj-column>
+			</mj-section>
+			<!-- /es-join-group -->
+
+			<!-- es-help -->
+			<mj-section padding="80px 40px 100px">
+				<mj-column width="100%">
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px 0" font-weight="700" align="center">Need help? Get it!</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0" align="center">Reply directly to this email or click the <a href="#" style="color: #19153E;">help bubble</a> at any time while using the platform.</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-help -->
+
+
+		</mj-wrapper>
+
+		<mj-wrapper full-width="full-width" padding="0">
+			<mj-section padding="0">
+				<mj-raw><div class="hide-sm" style="height: 100px;"></div></mj-raw>
+			</mj-section>
+		</mj-wrapper>
+
+	</mj-body>
+</mjml>

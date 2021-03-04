@@ -1,0 +1,23 @@
+<!-- es-join-group -->
+<mj-section padding="40px 40px 60px" css-class="es-join-group">
+	<mj-column width="100%">
+		<mj-text color="#FFFFFF" font-size="24px" line-height="36px" padding="0 0 10px 0" font-weight="700" align="center">Join the Elite Seller Facebook group now!</mj-text>
+		<mj-text color="#FFFFFF" font-size="16px" line-height="24px" padding="0 0 20px" align="center">You can stay in the know and engage in active discussions with other Elite Sellers like you.</mj-text>
+		<mj-button font-family="Helvetica" background-color="#FF6067" color="white" font-size="16px" font-weight="700" inner-padding="18px 30px" href="#">
+			I am in
+		</mj-button>
+	</mj-column>
+</mj-section>
+<mj-section padding="30px 15px 20px 20px" css-class="es-join-members">
+	<mj-column width="12%">
+		<mj-image width="39px" href="#" padding="5px 0" src="assets/es-email-logo-001.jpg" />
+	</mj-column>
+	<mj-column width="38%">
+		<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="20px" font-weight="700" padding="8px 0 0"><div class="center-sm">Elite Seller Software</div></mj-text>
+		<mj-text color="#666668" font-size="12px" line-height="18px" padding="0 0 5px"><div class="center-sm">@EliteSeller Group</div></mj-text>
+	</mj-column>
+	<mj-column width="50%">
+		<mj-image width="220px" href="#" padding="5px 0 0" src="assets/es-email-ceo-02.jpg" />
+	</mj-column>
+</mj-section>
+<!-- /es-join-group -->

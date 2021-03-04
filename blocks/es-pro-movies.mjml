@@ -1,0 +1,10 @@
+<!-- es-pro-movies -->
+<mj-section padding="40px 40px 80px">
+	<mj-column width="100%">
+		<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="36px" padding="0 0 10px 0" font-weight="700" align="center">Get more Elite Seller pro-moves by clicking here for step-by-step SOPs</mj-text>
+		<mj-button font-family="Helvetica" background-color="#FF6067" color="white" font-size="16px" font-weight="700" inner-padding="18px 30px" href="#">
+			Learn more
+		</mj-button>
+	</mj-column>
+</mj-section>
+<!-- /es-pro-movies -->

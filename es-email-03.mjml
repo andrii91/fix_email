@@ -1,0 +1,183 @@
+<mjml>
+	<mj-head>
+		<mj-title>ES Seller</mj-title>
+		<mj-preview>ES Seller</mj-preview>
+		<mj-attributes>
+			<mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#19153E" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+		<mj-style inline="inline">
+			.body-section {
+				background-image: url("assets/es-email-body.jpg");
+				background-repeat: repeat;
+				-webkit-box-shadow: 0px 5px 50px #CAE7FF;
+				-moz-box-shadow: 0px 5px 50px #CAE7FF;
+				box-shadow: 0px 5px 50px #CAE7FF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.es-join-group {
+        background-image: url("assets/es-email-join-group.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+       .es-join-members {
+       	background-color: #FFFFFF;
+       	margin: -40px 40px 0 !important;
+       	border: 1px solid #01AAFF;
+       	border-radius: 4px; }
+		</mj-style>
+		<mj-style inline="inline">
+			.text-link { color: #5e6ebf }
+		</mj-style>
+		<mj-style inline="inline">
+			.footer-link {
+				color: #013073;
+				text-decoration: none;
+				margin: 0 10px; }
+		</mj-style>
+		<mj-style inline="inline">
+			.body-text {
+				color: #19153E; }
+		</mj-style>
+		<mj-style inline="inline">
+			.blue-text {
+				color: #00AAFF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.ditch-section {
+				background-color: #F3F7FB;
+				border-radius: 8px;
+				margin: 40px !important; }
+		</mj-style>
+		<mj-style inline="inline">
+			.es-dashboard-caption {
+				position: relative;
+				margin-bottom: -30px;
+				z-index: 100; }
+		</mj-style>
+		<mj-style>
+			.ditch-screenshot {
+				width: 140% !important;
+				margin: -30px;
+			}
+
+			@media screen and (max-device-width: 425px), screen and (max-width: 425px) {
+				.hide-sm {
+					display: none !important;
+					visibility: hidden !important;
+					opacity: 0 !important;
+					height: 0 !important;
+				}
+
+				.center-sm {
+					text-align: center !important;
+				}
+
+				.ditch-screenshot {
+					width: 125% !important;
+					margin: -30px -10px -40px -40px;
+				}
+			}
+		</mj-style>
+	</mj-head>
+
+	<mj-body background-color="#FFFFFF" width="600px">
+		<mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+			<!-- es-header -->
+			<mj-section
+				padding="35px 40px 0">
+				<mj-column width="100%">
+					<mj-spacer height="150px" />
+					<mj-text align="left" color="#19153E" font-size="34px" line-height="1.2" padding="0" font-weight="700">A next-level lesson in setting up Alerts</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-header -->
+
+			<!-- es-hi-john -->
+			<mj-section padding="0 20px">
+				<mj-column width="50%">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="40px 0 5px 20px" font-weight="700">Hi John,</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 20px 40px">It’s day four and you’re already ahead of the class! Keep the momentum going!</mj-text>
+				</mj-column>
+				<mj-column width="50%" padding="0">
+					<mj-image padding="0" fluid-on-mobile="true" src="assets/es-email-tags.jpg" />
+				</mj-column>
+			</mj-section>
+			<!-- /es-hi-john -->
+
+			<!-- es-tip-02 -->
+			<mj-section padding="60px 40px 40px">
+				<mj-column width="100%">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 0" font-weight="700"><div class="center-sm">Elite Masterclass Tip 2:</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px" font-weight="700"><div class="center-sm">Setup your Alerts</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 0 30px"><div class="center-sm">Use time-saving automated alerts to track all your trends and changes to your products and stay ahead of the game, always.</div></mj-text>
+				</mj-column>
+
+				<mj-column width="43%">
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" font-weight="700" padding="10px 0"><div class="center-sm">Send different alerts to all team members</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 0 10px"><div class="center-sm">Create notification channels for critical alerts or any alerts important to you and your team.</div></mj-text>
+				</mj-column>
+				<mj-column width="7%"></mj-column>
+				<mj-column width="50%">
+					<mj-image width="260px" padding="10px 0" src="assets/es-email-dashboard-004.jpg" />
+				</mj-column>
+
+				<mj-column width="100%">
+					<mj-spacer height="30px" />
+				</mj-column>
+
+				<mj-column width="43%">
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" font-weight="700" padding="10px 0"><div class="center-sm">Integrates with many services</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 0 10px"><div class="center-sm">Streamline your response time by setting up Zapier Alerts to integrate with Google Sheets, Asana, ClickUp, and more.</div></mj-text>
+				</mj-column>
+				<mj-column width="7%"></mj-column>
+				<mj-column width="50%">
+					<mj-image width="260px" padding="10px 0" src="assets/es-email-dashboard-005.jpg" />
+				</mj-column>
+
+				<mj-column width="100%">
+					<mj-spacer height="30px" />
+				</mj-column>
+
+				<mj-column width="43%">
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" font-weight="700" padding="10px 0"><div class="center-sm">See all alerts history logs in one place</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 0 10px"><div class="center-sm">Setup your Alert Log and always keep your records up to date.</div></mj-text>
+				</mj-column>
+				<mj-column width="7%"></mj-column>
+				<mj-column width="50%">
+					<mj-image width="260px" padding="10px 0" src="assets/es-email-dashboard-006.jpg" />
+				</mj-column>
+			</mj-section>
+			<!-- /es-tip-02 -->
+
+			<!-- es-dashboard -->
+			<mj-section padding="40px 40px 0">
+				<mj-column width="100%" css-class="es-dashboard-caption">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 0" font-weight="700" align="center">Your second homework assignment:</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px" font-weight="700" align="center">Create a general Notification channel</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0" font-weight="700" align="center">Have you watched our expert-led Loom on Alerts yet?</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section padding="0">
+				<mj-column width="100%" padding="0">
+					<mj-image href="#" padding="0" src="assets/es-email-dashboard-007.jpg" />
+				</mj-column>
+			</mj-section>
+			<!-- /es-dashboard -->
+
+			<mj-include path="./blocks/es-pro-movies.mjml" />
+
+			<mj-include path="./blocks/es-facebook-group.mjml" />
+
+			<mj-include path="./blocks/es-need-help.mjml" />
+
+		</mj-wrapper>
+
+		<mj-wrapper full-width="full-width" padding="0">
+			<mj-section padding="0">
+				<mj-raw><div class="hide-sm" style="height: 100px;"></div></mj-raw>
+			</mj-section>
+		</mj-wrapper>
+
+	</mj-body>
+</mjml>

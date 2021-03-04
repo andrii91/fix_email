@@ -1,0 +1,181 @@
+<mjml>
+	<mj-head>
+		<mj-title>ES Seller</mj-title>
+		<mj-preview>ES Seller</mj-preview>
+		<mj-attributes>
+			<mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#19153E" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+		<mj-style inline="inline">
+			.body-section {
+				background-image: url("assets/es-email-body.jpg");
+				background-repeat: repeat;
+				-webkit-box-shadow: 0px 5px 50px #CAE7FF;
+				-moz-box-shadow: 0px 5px 50px #CAE7FF;
+				box-shadow: 0px 5px 50px #CAE7FF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.es-join-group {
+        background-image: url("assets/es-email-join-group.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+       .es-join-members {
+       	background-color: #FFFFFF;
+       	margin: -40px 40px 0 !important;
+       	border: 1px solid #01AAFF;
+       	border-radius: 4px; }
+		</mj-style>
+		<mj-style inline="inline">
+			.text-link { color: #5e6ebf }
+		</mj-style>
+		<mj-style inline="inline">
+			.footer-link {
+				color: #013073;
+				text-decoration: none;
+				margin: 0 10px; }
+		</mj-style>
+		<mj-style inline="inline">
+			.body-text {
+				color: #19153E; }
+		</mj-style>
+		<mj-style inline="inline">
+			.blue-text {
+				color: #00AAFF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.ditch-section {
+				background-color: #F3F7FB;
+				border-radius: 8px;
+				margin: 40px !important; }
+		</mj-style>
+		<mj-style inline="inline">
+			.es-dashboard-caption {
+				position: relative;
+				margin-bottom: -30px;
+				z-index: 100; }
+		</mj-style>
+		<mj-style>
+			.ditch-screenshot {
+				width: 140% !important;
+				margin: -30px;
+			}
+
+			@media screen and (max-device-width: 425px), screen and (max-width: 425px) {
+				.hide-sm {
+					display: none !important;
+					visibility: hidden !important;
+					opacity: 0 !important;
+					height: 0 !important;
+				}
+
+				.center-sm {
+					text-align: center !important;
+				}
+
+				.ditch-screenshot {
+					width: 125% !important;
+					margin: -30px -10px -40px -40px;
+				}
+			}
+		</mj-style>
+	</mj-head>
+
+	<mj-body background-color="#FFFFFF" width="600px">
+		<mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+			<!-- es-header -->
+			<mj-section
+				padding="35px 15px 10px">
+				<mj-column width="100%">
+					<mj-spacer height="150px" />
+					<mj-text align="left" color="#19153E" font-size="34px" line-height="1.2" font-weight="700">You’ve never worked with dashboards like this before </mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-header -->
+
+			<mj-section padding="0">
+				<mj-column width="100%" padding="0">
+					<mj-image padding="0" src="assets/es-email-screenshots-002.jpg" />
+				</mj-column>
+			</mj-section>
+
+			<!-- es-hi-john -->
+			<mj-section padding="60px 0 20px">
+				<mj-column width="100%">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 40px" font-weight="700">Hi John,</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 40px">We know it’s only your second day of school, but you’re an Elite Seller now, so we’re not wasting any time elevating your success.</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-hi-john -->
+
+			<!-- es-tip-01 -->
+			<mj-section padding="40px">
+				<mj-column width="100%">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 0" font-weight="700"><div class="center-sm">Elite Masterclass Tip 1:</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px" font-weight="700"><div class="center-sm">Customize your Dashboards & KPIs</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 0 30px"><div class="center-sm">Your dynamic dashboard is built for limitless customizations. Make this the ultimate control center to manage and scale your business.</div></mj-text>
+				</mj-column>
+				<mj-column width="50%">
+					<mj-image width="260px" padding="10px 0" src="assets/es-email-dashboard-001.jpg" />
+				</mj-column>
+				<mj-column width="7%"></mj-column>
+				<mj-column width="43%">
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" font-weight="700" padding="10px 0 15px"><div class="center-sm">Plenty of widgets</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0"><div class="center-sm">Expand or contract powerful widgets to track the stats that matter, product insights, sales periods, and more.</div></mj-text>
+				</mj-column>
+				<mj-column width="100%">
+					<mj-spacer height="20px" />
+				</mj-column>
+				<mj-column width="50%">
+					<mj-image width="260px" padding="10px 0" src="assets/es-email-dashboard-002.jpg" />
+				</mj-column>
+				<mj-column width="7%"></mj-column>
+				<mj-column width="43%">
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" font-weight="700" padding="10px 0 15px"><div class="center-sm">Unlimited products, Multiple accounts</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0"><div class="center-sm">Compare multiple product accounts or deep dive into one account.</div></mj-text>
+				</mj-column>
+				<mj-column width="100%">
+					<mj-spacer height="20px" />
+				</mj-column>
+				<mj-column width="50%">
+					<mj-image width="260px" padding="10px 0" src="assets/es-email-dashboard-003.jpg" />
+				</mj-column>
+				<mj-column width="7%"></mj-column>
+				<mj-column width="43%">
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" font-weight="700" padding="10px 0 15px"><div class="center-sm">Fully customizable dashboard</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0"><div class="center-sm">For more instant versatility, create multiple custom dashboards and have your go-to reports ready in a click.</div></mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-tip-01 -->
+
+			<!-- es-dashboard -->
+			<mj-section padding="40px 40px 0">
+				<mj-column width="100%" css-class="es-dashboard-caption">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 0" font-weight="700" align="center">Your first homework assignment:</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px" font-weight="700" align="center">Create a widget for your Dashboard</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0" font-weight="700" align="center">Have you watched our expert-led Loom on Dashboards yet?</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section padding="0">
+				<mj-column width="100%" padding="0">
+					<mj-image href="#" padding="0" src="assets/es-email-dashboard-000.jpg" />
+				</mj-column>
+			</mj-section>
+			<!-- /es-dashboard -->
+
+			<mj-include path="./blocks/es-pro-movies.mjml" />
+
+			<mj-include path="./blocks/es-facebook-group.mjml" />
+
+			<mj-include path="./blocks/es-need-help.mjml" />
+
+		</mj-wrapper>
+
+		<mj-wrapper full-width="full-width" padding="0">
+			<mj-section padding="0">
+				<mj-raw><div class="hide-sm" style="height: 100px;"></div></mj-raw>
+			</mj-section>
+		</mj-wrapper>
+
+	</mj-body>
+</mjml>

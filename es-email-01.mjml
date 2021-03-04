@@ -1,0 +1,190 @@
+<mjml>
+	<mj-head>
+		<mj-title>ES Seller</mj-title>
+		<mj-preview>ES Seller</mj-preview>
+		<mj-attributes>
+			<mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#19153E" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+		<mj-style inline="inline">
+			.body-section {
+				background-image: url("assets/es-email-body.jpg");
+				background-repeat: repeat;
+				-webkit-box-shadow: 0px 5px 50px #CAE7FF;
+				-moz-box-shadow: 0px 5px 50px #CAE7FF;
+				box-shadow: 0px 5px 50px #CAE7FF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.text-link { color: #5e6ebf }
+		</mj-style>
+		<mj-style inline="inline">
+			.footer-link {
+				color: #013073;
+				text-decoration: none;
+				margin: 0 10px; }
+		</mj-style>
+		<mj-style inline="inline">
+			.body-text {
+				color: #19153E; }
+		</mj-style>
+		<mj-style inline="inline">
+			.blue-text {
+				color: #00AAFF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.ditch-section {
+				background-color: #F3F7FB;
+				border-radius: 8px;
+				margin: 40px !important; }
+		</mj-style>
+		<mj-style>
+			.ditch-screenshot {
+				width: 140% !important;
+				margin: -30px;
+			}
+
+			@media screen and (max-device-width: 425px), screen and (max-width: 425px) {
+				.hide-sm {
+					display: none !important;
+					visibility: hidden !important;
+					opacity: 0 !important;
+					height: 0 !important;
+				}
+
+				.center-sm {
+					text-align: center !important;
+				}
+
+				.ditch-screenshot {
+					width: 125% !important;
+					margin: -30px -10px -40px -40px;
+				}
+			}
+		</mj-style>
+	</mj-head>
+
+	<mj-body background-color="#FFFFFF" width="600px">
+		<mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+			<!-- es-header -->
+			<mj-section
+				css-class="es-header"
+				padding="35px 15px 10px">
+				<mj-column width="100%">
+					<mj-spacer height="150px" />
+					<mj-text align="left" color="#19153E" font-size="34px" line-height="1.2" font-weight="700">Welcome to Elite Seller</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-header -->
+
+
+			<!-- es-hi-john -->
+			<mj-section padding="40px 0">
+				<mj-column width="100%">
+					<mj-text color="#00AAFF" font-size="24px" line-height="28px" padding="0 0 5px 40px" font-weight="700">Hi John,</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="36px" padding="0 40px" font-weight="700">You’ve just taken the first critical step to optimizing your entire Amazon business.</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="20px 40px 0">Enjoy exclusive access to the most dynamic tools available in one place, designed and road-tested by a community of sellers dominating on Amazon. That’s right this tool was built by experienced sellers for sellers and agencies <strong>to scale up to over 100M in sales<strong>.</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-hi-john -->
+
+
+			<!-- es-platforms-01 -->
+			<mj-section css-class="ditch-section" padding="10px">
+				<mj-column width="60%" padding="20px">
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" font-weight="700" padding="0 0 10px">Time to ditch your other platforms</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0">This is the only all-in-one tool you’ll ever need to run and scale your business.</mj-text>
+				</mj-column>
+				<mj-column width="40%" padding="0">
+					<mj-raw>
+						<img width="120%" class="ditch-screenshot" src="assets/es-email-screenshots-001.png" />
+					</mj-raw>
+				</mj-column>
+			</mj-section>
+			<!-- /es-platforms-01 -->
+
+			<!-- es-plarforms-02 -->
+			<mj-section padding="40px">
+				<mj-column width="100%">
+					<mj-text color="#00AAFF" font-size="24px" line-height="28px" padding="0" font-weight="700" align="center">To ensure you get set up right</mj-text>
+					<mj-text color="#19153E" font-size="24px" line-height="36px" padding="0" font-weight="700" align="center">do these 3 things right now</mj-text>
+				</mj-column>
+				<mj-column width="33%" padding="0">
+					<mj-table color="#19153E" font-size="18px" line-height="24px" padding="25px 0">
+						<tr>
+							<td align="center">
+								<img width="110px" src="assets/es-email-steps-001.jpg" />
+								<p style="font-size: 16px; line-height: 24px; color: #19153E; margin: 10px 5px 5px; font-weight: 700; text-decoration: none !important;">Join our Facebook<br>group</p>
+								<p style="font-size: 16px; line-height: 24px; color: #08A8F6; margin: 0 5px;">
+									<a href="#" style="font-size: 16px; line-height: 24px; color: #08A8F6; margin: 0;">Learn more<img width="22px" style="vertical-align: middle; margin-left: 10px;" src="assets/es-email-step-01.jpg" /></a>
+								</p>
+							</td>
+						</tr>
+					</mj-table>
+				</mj-column>
+				<mj-column width="33%" padding="0">
+					<mj-table color="#19153E" font-size="18px" line-height="24px" padding="25px 0">
+						<tr>
+							<td align="center">
+								<img width="110px" src="assets/es-email-steps-002.jpg" />
+								<p style="font-size: 16px; line-height: 24px; color: #19153E; margin: 10px 5px 5px; font-weight: 700; text-decoration: none !important;">Connect your MWS<br>account</p>
+								<p style="font-size: 16px; line-height: 24px; color: #08A8F6; margin: 0 5px;">
+									<a href="#" style="font-size: 16px; line-height: 24px; color: #08A8F6; margin: 0;">Learn more<img width="22px" style="vertical-align: middle; margin-left: 10px;" src="assets/es-email-step-01.jpg" /></a>
+								</p>
+							</td>
+						</tr>
+					</mj-table>
+				</mj-column>
+				<mj-column width="33%" padding="0">
+					<mj-table color="#19153E" font-size="18px" line-height="24px" padding="25px 0">
+						<tr>
+							<td align="center">
+								<img width="110px" src="assets/es-email-steps-003.jpg" />
+								<p style="font-size: 16px; line-height: 24px; color: #19153E; margin: 10px 5px 5px; font-weight: 700; text-decoration: none !important;">Setup your<br>automations bot</p>
+								<p style="font-size: 16px; line-height: 24px; color: #08A8F6; margin: 0 5px;">
+									<a href="#" style="font-size: 16px; line-height: 24px; color: #08A8F6; margin: 0;">Learn more<img width="22px" style="vertical-align: middle; margin-left: 10px;" src="assets/es-email-step-01.jpg" /></a>
+								</p>
+							</td>
+						</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+			<!-- /es-plarforms-02 -->
+
+
+			<!-- es-elite -->
+			<mj-section padding="20px 40px 0">
+				<mj-column width="100%" padding="0">
+					<mj-text color="#19153E" font-size="24px" line-height="30px" font-weight="700" padding="0 0 10px">
+						<p class="center-sm" style="margin: 0;"><span style="color: #00AAFF;">From now on ... You’re not just good</span><br>You’re elite</p>
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section padding="0 40px">
+				<mj-column width="100%" padding="0">
+					<mj-text padding="15px 0 25px" color="#19153E" font-size="20px" line-height="30px" font-style="italic">“ Stay tuned, we're gonna help elevate your business, with great features, training, and support .”</mj-text>
+					<mj-table padding="0">
+						<tr>
+							<td style="width: 1%;">
+								<img width="70px" src="assets/es-email-ceo-01.jpg" />
+							</td>
+							<td>
+								<p style="font-size: 14px; line-height: 20px; color: #19153E; margin: 0 0 0 20px; font-weight: 700;">Leo Limin</p>
+								<p style="font-size: 14px; line-height: 20px; color: #19153E; margin: 0 0 0 20px;">CEO & Co-Founder</p>
+							</td>
+						</tr>
+					</mj-table>
+					<mj-spacer height="150px" />
+				</mj-column>
+			</mj-section>
+			<!-- /es-elite -->
+
+		</mj-wrapper>
+
+		<mj-wrapper full-width="full-width" padding="0">
+			<mj-section padding="0">
+				<mj-raw><div class="hide-sm" style="height: 100px;"></div></mj-raw>
+			</mj-section>
+		</mj-wrapper>
+
+	</mj-body>
+</mjml>

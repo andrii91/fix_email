@@ -1,0 +1,171 @@
+<mjml>
+	<mj-head>
+		<mj-title>ES Seller</mj-title>
+		<mj-preview>ES Seller</mj-preview>
+		<mj-attributes>
+			<mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#19153E" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+		<mj-style inline="inline">
+			.body-section {
+				background-image: url("assets/es-email-body.jpg");
+				background-repeat: repeat;
+				-webkit-box-shadow: 0px 5px 50px #CAE7FF;
+				-moz-box-shadow: 0px 5px 50px #CAE7FF;
+				box-shadow: 0px 5px 50px #CAE7FF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.es-join-group {
+        background-image: url("assets/es-email-join-group.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+       .es-join-members {
+       	background-color: #FFFFFF;
+       	margin: -40px 40px 0 !important;
+       	border: 1px solid #01AAFF;
+       	border-radius: 4px; }
+		</mj-style>
+		<mj-style inline="inline">
+			.text-link { color: #5e6ebf }
+		</mj-style>
+		<mj-style inline="inline">
+			.footer-link {
+				color: #013073;
+				text-decoration: none;
+				margin: 0 10px; }
+		</mj-style>
+		<mj-style inline="inline">
+			.body-text {
+				color: #19153E; }
+		</mj-style>
+		<mj-style inline="inline">
+			.blue-text {
+				color: #00AAFF; }
+		</mj-style>
+		<mj-style inline="inline">
+			.ditch-section {
+				background-color: #F3F7FB;
+				border-radius: 8px;
+				margin: 40px !important; }
+		</mj-style>
+		<mj-style inline="inline">
+			.es-dashboard-caption {
+				position: relative;
+				margin-bottom: -30px;
+				z-index: 100; }
+		</mj-style>
+		<mj-style>
+			.ditch-screenshot {
+				width: 140% !important;
+				margin: -30px;
+			}
+
+			@media screen and (max-device-width: 425px), screen and (max-width: 425px) {
+				.hide-sm {
+					display: none !important;
+					visibility: hidden !important;
+					opacity: 0 !important;
+					height: 0 !important;
+				}
+
+				.center-sm {
+					text-align: center !important;
+				}
+
+				.ditch-screenshot {
+					width: 125% !important;
+					margin: -30px -10px -40px -40px;
+				}
+			}
+		</mj-style>
+	</mj-head>
+
+	<mj-body background-color="#FFFFFF" width="600px">
+		<mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+			<!-- es-header -->
+			<mj-section
+				padding="35px 15px 30px">
+				<mj-column width="100%">
+					<mj-spacer height="150px" />
+					<mj-text align="left" color="#19153E" font-size="34px" line-height="1.2" font-weight="700">The secret to Amazon ranking</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-header -->
+
+			<mj-section padding="0 20px">
+				<mj-column width="100%" padding="0">
+					<mj-image padding="0" src="assets/es-email-screenshots-003.jpg" />
+				</mj-column>
+			</mj-section>
+
+			<!-- es-hi-john -->
+			<mj-section padding="60px 0 20px">
+				<mj-column width="100%">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 40px" font-weight="700">Hi John,</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 40px">Dashboards and Alerts are just the starting point on your road map to success. It’s time to drive your ranking on Amazon with the best keywords insights available.</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-hi-john -->
+
+			<!-- es-tip-03 -->
+			<mj-section padding="40px">
+				<mj-column width="100%">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 0" font-weight="700"><div class="center-sm">Elite Masterclass Tip 3:</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px" font-weight="700"><div class="center-sm">Amazon ranking with Keywords</div></mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0 0 30px"><div class="center-sm">Your products ranking score all comes down to best practices on tracking Keyword.</div></mj-text>
+				</mj-column>
+
+				<mj-column width="43%">
+					<mj-image width="120px" padding="20px 0 10px" src="assets/es-email-steps-004.jpg" />
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="10px 0 15px" align="center">Use your tracker to keep score on all your products currently selling.</mj-text>
+				</mj-column>
+				<mj-column width="14%"></mj-column>
+				<mj-column width="43%">
+					<mj-image width="120px" padding="20px 0 10px" src="assets/es-email-steps-005.jpg" />
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="10px 0 15px" align="center">Find new keywords that enhance your rating.</mj-text>
+				</mj-column>
+
+				<mj-column width="43%">
+					<mj-image width="120px" padding="20px 0 10px" src="assets/es-email-steps-006.jpg" />
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="10px 0 15px" align="center">Stay fresh and check any keywords rankings instantly.</mj-text>
+				</mj-column>
+				<mj-column width="14%"></mj-column>
+				<mj-column width="43%">
+					<mj-image width="120px" padding="20px 0 10px" src="assets/es-email-steps-007.jpg" />
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="10px 0 15px" align="center">Run hourly checks on keywords to see each hour updated rankings on the graph.</mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-tip-03 -->
+
+			<!-- es-dashboard -->
+			<mj-section padding="40px 40px 0">
+				<mj-column width="100%" css-class="es-dashboard-caption">
+					<mj-text color="#00AAFF" css-class="blue-text" font-size="24px" line-height="28px" padding="0 0 5px 0" font-weight="700" align="center">Your third homework assignment: </mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="24px" line-height="28px" padding="0 0 20px" font-weight="700" align="center">Find a new keyword ranking</mj-text>
+					<mj-text color="#19153E" css-class="body-text" font-size="16px" line-height="24px" padding="0" font-weight="700" align="center">Have you watched our expert-led Loom on Keyword Tracking yet?</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section padding="0">
+				<mj-column width="100%" padding="0">
+					<mj-image href="#" padding="0" src="assets/es-email-dashboard-008.jpg" />
+				</mj-column>
+			</mj-section>
+			<!-- /es-dashboard -->
+
+			<mj-include path="./blocks/es-pro-movies.mjml" />
+
+			<mj-include path="./blocks/es-facebook-group.mjml" />
+
+			<mj-include path="./blocks/es-need-help.mjml" />
+
+		</mj-wrapper>
+
+		<mj-wrapper full-width="full-width" padding="0">
+			<mj-section padding="0">
+				<mj-raw><div class="hide-sm" style="height: 100px;"></div></mj-raw>
+			</mj-section>
+		</mj-wrapper>
+
+	</mj-body>
+</mjml>
