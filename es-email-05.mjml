@@ -28,9 +28,10 @@
 		</mj-style>
 		<mj-style inline="inline">
 			.es-competition {
-				background-image: url("https://andrii91.github.io/fix_email/assets/es-email-competition.jpg");
+				background-image: url("https://andrii91.github.io/fix_email/assets/es-email-competition.png");
 				background-repeat: no-repeat;
-				background-position: left top;
+    background-position: -40px top;
+    background-size: 600px;
        	margin: 0 40px !important; }
 		</mj-style>
 		<mj-style inline="inline">
