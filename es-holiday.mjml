@@ -1,0 +1,116 @@
+<mjml>
+	<mj-head>
+    <mj-title>ES Seller</mj-title>
+    <mj-preview>ES Seller</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#19153E" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section {
+        -webkit-box-shadow: 0px 5px 50px #CAE7FF;
+        -moz-box-shadow: 0px 5px 50px #CAE7FF;
+        box-shadow: 0px 5px 50px #CAE7FF; }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+        color: #013073;
+        text-decoration: none;
+        margin: 0 10px; }
+    </mj-style>
+    <mj-style inline="inline">
+      .es-header {
+        background-image: url("assets/es-holiday-header.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom; }
+    </mj-style>
+    <mj-style inline="inline">
+      .es-footer {
+        background-image: url("assets/es-holiday-footer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top; }
+    </mj-style>
+    <mj-style inline="inline">
+    	.es-body {
+    		background-color: #FFFFFF !important; }
+    </mj-style>
+    <mj-style inline="inline">
+    	.es-text-dark {
+    		color: #19153E !important; }
+    </mj-style>
+	</mj-head>
+	<mj-body background-color="#FFFFFF" width="600px">
+		<mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+
+      <!-- es-header -->
+      <mj-section
+        css-class="es-header"
+        padding="35px 15px 0">
+        <mj-column width="100%">
+          <mj-image align="left" href="#" width="157px" src="assets/es-email-logo.png" />
+          <mj-text align="left" color="#fff" font-size="36px" line-height="1.2" font-weight="700" text-transform="uppercase" padding="35px 25px 0">holiday hours</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- /es-header -->
+
+      <!-- es-holiday -->
+      <mj-section
+        padding="0">
+        <mj-column width="100%" padding="0">
+        	<mj-image padding="0" fluid-on-mobile="true" src="assets/es-holiday.jpg">
+        </mj-column>
+      </mj-section>
+      <!-- /es-holiday -->
+
+      <!-- es-holiday-text -->
+      <mj-section css-class="es-body" padding="0 40px">
+        <mj-column width="100%" padding="0">
+          <mj-text align="center" color="#00AAFF" font-size="24px" line-height="28px" font-weight="700" padding="0 0 20px">Dear %FIRSTNAME%</mj-text>
+          <mj-text align="center" color="#19153E" font-size="16px" line-height="24px" font-weight="700"  padding="0 0 30px" css-class="es-text-dark">Please be aware that the Elite Seller Customer Support Team<br>will be operating as usual with the exception of<br>the following dates and times:</mj-text>
+          <mj-text align="center" color="#19153E" font-size="18px" line-height="27px" font-weight="300"  padding="0 0 40px" css-class="es-text-dark">Dec 23:  7am—5pm PST<br>Dec 24 (Christmas Eve):  7am—12pm PST<br>Dec 25 (Christmas Day):  <strong>Closed</strong><br>Dec 31 (New Year’s Eve):  7am—12pm PST<br><br>Jan 1 (New Year’s Day):  <strong>Closed</strong></mj-text>
+          <mj-text align="center" color="#00AAFF" font-size="20px" line-height="30px" font-weight="700" padding="0">We wish you a happy holiday!</mj-text>
+          <mj-text align="center" color="#19153E" font-size="20px" line-height="30px" font-weight="700" padding="0 0 20px" css-class="es-text-dark">We look forward to what 2021 will bring!</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- /es-holiday-text -->
+
+      <!-- es-footer -->
+      <mj-section
+        css-class="es-footer"
+        padding="40px 40px 30px">
+
+        <mj-column width="100%" padding="40px 0 0 0"></mj-column>
+
+        <mj-column width="65%" padding="20px 0">
+        	<mj-raw>
+	          <a href="#">
+	            <img width="132" src="assets/es-email-logo-footer.png" alt="ES Seller" />
+	          </a>
+	         </mj-raw>
+        </mj-column>
+        <mj-column width="35%" padding="0">
+        	<mj-text padding="0">
+        		<p style="font-size: 14px; line-height: 22px; margin: 0; padding: 10px 0 10px 15px; color: #FFFFFF; border-left: 1px solid rgba(255, 255, 255, 0.2);">Elevate your game,<br>Elite Seller Success Team</p>
+        	</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- /es-footer -->
+
+		</mj-wrapper>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="100%" padding-right="0" padding-left="0" padding-right="0">
+            <mj-text color="#013073" font-size="12px" align="center" line-height="16px">
+              <a class="footer-link" href="#">Unsubscribe</a> | <a class="footer-link" href="#">Privacy Policy</a> | <a class="footer-link" href="#">Contact Support</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+	</mj-body>
+</mjml>

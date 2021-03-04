@@ -86,18 +86,42 @@
 				}
 			}
 		</mj-style>
+		  <mj-style inline="inline">
+      .es-header {
+        background-image: url("https://andrii91.github.io/fix_email/assets/es-email-header.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom; }
+    </mj-style>
+    <mj-style inline="inline">
+      .es-footer {
+        background-image: url("https://andrii91.github.io/fix_email/assets/es-email-footer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top; }
+    </mj-style>
+    <mj-style inline="inline">
+      .es-strategy {
+        background-image: url("https://andrii91.github.io/fix_email/assets/es-email-strategy.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+    </mj-style>
+	
 	</mj-head>
 
 	<mj-body background-color="#FFFFFF" width="600px">
 		<mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
-			<!-- es-header -->
+			      <!-- es-header -->
 			<mj-section
-				padding="35px 15px 30px">
+				css-class="es-header"
+				padding="35px 15px">
 				<mj-column width="100%">
-					<mj-spacer height="150px" />
-					<mj-text align="left" color="#19153E" font-size="34px" line-height="1.2" font-weight="700">Launch product faster<br>with this one tool</mj-text>
+				<mj-image align="left" href="#" width="157px" src="https://andrii91.github.io/fix_email/assets/es-email-logo.png" />
+				<mj-text align="left" color="#fff" font-size="36px" line-height="1.2" font-weight="700" text-transform="uppercase">Launch product faster<br>with this one tool</mj-text>
+				<mj-spacer height="100px" />
 				</mj-column>
-			</mj-section> 
+			</mj-section>
 			<!-- /es-header -->
 
 			<!-- es-competition -->
@@ -199,13 +223,46 @@
 			<!-- /es-help -->
 
 
+		
+			<!-- es-footer -->
+			<mj-section
+				css-class="es-footer"
+				padding="40px 40px 30px">
+
+				<mj-column width="100%" padding="40px 0 0 0"></mj-column>
+
+				<mj-column width="65%" padding="0">
+				<mj-table padding="0">
+					<tr>
+					<td style="width: 1%;">
+						<a href="#">
+						<img width="132" src="https://andrii91.github.io/fix_email/assets/es-email-logo-footer.png" alt="ES Seller" />
+						</a>
+					</td>
+					<td>
+						<p style="font-size: 14px; line-height: 22px; margin: 0 0 0 15px; padding: 10px 0 10px 15px; color: #FFFFFF; border-left: 1px solid rgba(255, 255, 255, 0.2);">Elevate your game,<br>Elite Seller Success Team</p>
+					</td>
+					</tr>
+				</mj-table>
+				</mj-column>
+				<mj-column width="35%" padding="0">
+				<mj-text color="#FFFFFF" font-size="14px" line-height="22px" align="right" padding="10px 0 0 0"><a href="mailto:support@eliteseller.com" style="color: #FFFFFF; text-decoration: none;">support@eliteseller.com</a><span style="margin-left: 10px; display: inline-block;">+1(234)-567-0000</span></mj-text>
+				</mj-column>
+			</mj-section>
+			<!-- /es-footer -->
+
 		</mj-wrapper>
 
-		<mj-wrapper full-width="full-width" padding="0">
-			<mj-section padding="0">
-				<mj-raw><div class="hide-sm" style="height: 100px;"></div></mj-raw>
+		<mj-wrapper full-width="full-width">
+			<mj-section padding-top="0">
+				<mj-group>
+				<mj-column width="100%" padding-right="0">
+					<mj-text color="#013073" font-size="12px" align="center" line-height="16px">
+					<a class="footer-link" href="#">Unsubscribe</a> | <a class="footer-link" href="#">Privacy Policy</a> | <a class="footer-link" href="#">Contact Support</a>
+					</mj-text>
+				</mj-column>
+				</mj-group>
 			</mj-section>
 		</mj-wrapper>
-
 	</mj-body>
 </mjml>
